@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.todo-container {
+    margin-bottom: 20px;
+}
+
+#task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.task-item span {
+    margin-right: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: green;
+}
+
+.overdue {
+    color: red;
+}
+
+button {
+    margin-left: 5px;
+}
+
+#error-message {
+    color: red;
+    margin-top: 10px;
+}
